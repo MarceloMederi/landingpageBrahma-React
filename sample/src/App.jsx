@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
-import BrahmaDuploMalteImage from './image/duplo-malte.jpg';
+import BrahmaDuploMalte from './image/duplo-malte.png';
+import BrahmaDuploMalteBlack from './image/duplo-malte-black.png';
+import BrahmaDuploMalteTostada from './image/duplo-malte-tostada.png';
 
 
 function App() {
@@ -25,13 +27,15 @@ function App() {
 
       <div className="apresentacao" style={{ display: selectedTab === 'apresentacao1' ? 'block' : 'none' }}>
         <p>Apresentação para Brahma Duplo Malte</p>
-        <img src={BrahmaDuploMalteImage} alt="Brahma Duplo Malte" />
+        <img src={BrahmaDuploMalte} alt="Brahma Duplo Malte" />
       </div>
       <div className="apresentacao" style={{ display: selectedTab === 'apresentacao2' ? 'block' : 'none' }}>
         <p>Apresentação para Brahma Black</p>
+        <img src={BrahmaDuploMalteBlack} alt="Brahma Duplo Malte black" />
       </div>
       <div className="apresentacao" style={{ display: selectedTab === 'apresentacao3' ? 'block' : 'none' }}>
         <p>Apresentação para Brahma Tostada</p>
+        <img src={BrahmaDuploMalteTostada} alt="Brahma Duplo Malte Tostada" />
       </div>
       <div className="apresentacao" style={{ display: selectedTab === 'apresentacao4' ? 'block' : 'none' }}>
         <p>Apresentação para Brahma Trigo</p>
